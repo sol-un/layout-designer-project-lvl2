@@ -1,0 +1,47 @@
+@include url('./colors.scss');
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Roboto Regular';
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+body {
+  margin: 0;
+
+  color: $dark-gray;
+  background-color: $black;
+  font-size: 18px;
+  font-family: 'Roboto Regular', sans-serif;
+  line-height: 1.5em;
+}
+
+.h-1 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.h-2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-device-width: 1200px) {
+  .h-1 {
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .h-2 {
+    font-size: 38px;
+    line-height: 57px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
