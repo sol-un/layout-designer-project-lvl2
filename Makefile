@@ -1,6 +1,9 @@
 develop:
 	npx webpack serve
 
+deploy:
+	make build && npx surge ./dist -d $(d)
+
 install:
 	npm ci
 
