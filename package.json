@@ -1,0 +1,38 @@
+{
+  "name": "webpack-package",
+  "version": "0.1.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sol-un/layout-designer-project-lvl2.git"
+  },
+  "author": "S. J.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sol-un/layout-designer-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/sol-un/layout-designer-project-lvl2#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "debug": "^4.3.1",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.1",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "node-sass": "^6.0.1",
+    "pug": "^3.0.2",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.1.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.31.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
