@@ -1,12 +1,19 @@
-# webpack-package
+# Music Box
 
-[![github action status](https://github.com/hexlet-boilerplates/webpack-package/workflows/Node%20CI/badge.svg)](https://github.com/hexlet-boilerplates/webpack-package/actions)
-[![Code Climate](https://codeclimate.com/github/hexlet-boilerplates/webpack-package/badges/gpa.svg)](https://codeclimate.com/github/hexlet-boilerplates/webpack-package)
+This project is an intermediate HTML/CSS/adaptive layout study made under the guidance of Hexlet, a self-education platform. [Read more about Hexlet (in Russian)](https://ru.hexlet.io/pages/about).
+
+You can view the page online at http://festive-self.surge.sh/
 
 ## Setup
 
 ```sh
 make install
+```
+
+## Deploy
+
+```sh
+make deploy d=https://your-surge-domain.surge.sh/
 ```
 
 ## Run
