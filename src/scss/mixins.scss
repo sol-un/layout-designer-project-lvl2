@@ -1,0 +1,64 @@
+@mixin m($margin) {
+  margin: $margin;
+}
+
+@mixin mx($margin) {
+  @include mr($margin);
+  @include ml($margin);
+}
+
+@mixin my($margin) {
+  @include mt($margin);
+  @include mb($margin);
+}  
+
+@mixin mt($margin) {
+  margin-top: $margin;
+}
+
+@mixin mr($margin) {
+  margin-right: $margin;
+}
+
+@mixin mb($margin) {
+  margin-bottom: $margin;
+}
+
+@mixin ml($margin) {
+  margin-left: $margin;
+}  
+
+@mixin p($padding) {
+  padding: $padding;
+}
+
+@mixin px($padding) {
+  @include pr($padding);
+  @include pl($padding);
+}
+
+@mixin py($padding) {
+  @include pt($padding);
+  @include pb($padding);
+}  
+
+@mixin pt($padding) {
+  padding-top: $padding;
+}  
+
+@mixin pr($padding) {
+  padding-right: $padding;
+}  
+
+@mixin pb($padding) {
+  padding-bottom: $padding;
+}  
+
+@mixin pl($padding) {
+  padding-left: $padding;
+}  
+
+@mixin border($size, $color) {
+  border: $size solid $color;
+  border-radius: 10px;
+}
