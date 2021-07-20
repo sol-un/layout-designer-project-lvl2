@@ -29,8 +29,6 @@
     "pug": "^3.0.2",
     "pug-loader": "^2.4.0",
     "sass-loader": "^12.1.0",
-    "style-loader": "^3.1.0",
-    "url-loader": "^4.1.1",
     "webpack": "^5.31.0",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
